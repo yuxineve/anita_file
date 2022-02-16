@@ -1,0 +1,75 @@
+/*----元素初始化----start----*/
+
+html,
+body,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+ol,
+table {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: "Microsoft YaHei", simsun, sans-serif;
+  background: #ebf0f3;
+}
+
+.clear {
+  clear: both;
+  height: 0;
+  line-height: 0;
+  font-size: 0;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+  background-color: #dfdfdf;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: #dfdfdf;
+}
+
+::-webkit-scrollbar-thumb {
+  height: 20px;
+  border-radius: 10px;
+  background-color: #888888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #a5a4a4;
+}
+
+#root {
+  display: flex;
+  /* height: 100%; */
+  flex-direction: column;
+  font-size: 12px;
+  line-height: 20px;
+}
+.FormLayout {
+  width: 100%;
+}
+
+.MenuPanel .menu-content {
+  overflow: hidden;
+}
